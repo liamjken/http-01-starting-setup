@@ -59,7 +59,7 @@ export default {
           this.results = results;
         })
         .catch((error) => {
-          console.log('Liams Error:' + error);
+          console.log('Error:' + error);
           this.isLoading = false;
           this.error = 'Failed to fetch data - please try again later.';
         });
